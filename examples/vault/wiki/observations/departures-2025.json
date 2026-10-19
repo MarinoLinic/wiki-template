@@ -1,0 +1,14 @@
+{
+  "id": "harbor-departures-2025",
+  "metric": "departures",
+  "label": "Unavailable departures in 2025",
+  "value": null,
+  "unit": "people",
+  "period": "2025",
+  "scope": "Harbor Association",
+  "universe": "departing members",
+  "method": "unavailable",
+  "source": "../sources/fictional-report.md",
+  "locator": "Section B, line 11",
+  "notes": "The fictional source did not record departures."
+}

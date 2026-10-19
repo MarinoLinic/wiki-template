@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "captures": [
+    {
+      "id": "fictional-report",
+      "source_key": "fictional-report",
+      "title": "Fictional Harbor demonstration report",
+      "resource": "urn:example:harbor-report-v1",
+      "original_name": "original.txt",
+      "path": "raw/captures/fictional-report/original.txt",
+      "sha256": "b467fb132e728af39679ecb34026feccb1f2e4c7170a58d895e80e69760d8864",
+      "bytes": 935,
+      "captured_at": "2026-10-12T00:00:00Z"
+    }
+  ]
+}

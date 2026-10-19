@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "title": "Fictional Harbor Research",
+  "profiles": ["theory", "quantitative", "agent", "observations"],
+  "save_answers": "on_request"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "replace-with-unique-id",
+  "metric": "replace-with-metric",
+  "label": "What was measured",
+  "value": null,
+  "unit": "replace-with-unit",
+  "period": "replace-with-period",
+  "scope": "Defined geography, institution, or setup",
+  "universe": "Who or what the value describes",
+  "method": "unavailable",
+  "source": "../sources/replace-with-source-version.md",
+  "locator": "Exact source locator",
+  "notes": "Explain the missing evidence before using this record."
+}

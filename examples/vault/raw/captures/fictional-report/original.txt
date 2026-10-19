@@ -1,0 +1,15 @@
+FICTIONAL TRAINING MATERIAL. No statements describe actual people or institutions.
+Harbor Association: demonstration report, revision 1.
+Section A: hypothetical explanations.
+Mira Vale: "Continuity depends on repeatable routines."
+Leo Reed: "Continuity depends on reliable resources."
+The report presents these as competing interpretations, without an empirical test.
+Section B: invented membership records.
+All-age membership, Harbor Association, 2024: 1100 people.
+All-age membership, Harbor Association, 2025: 1200 people.
+Adult membership, Harbor Association, 2025: 800 people, included in the all-age count.
+Departures, Harbor Association, 2025: not recorded.
+Recorded equipment failures, demonstration bench, 2025-01-01: 0 events.
+Section C: demonstration review procedure.
+Compare the original value, period, and population definition before using a record.
+Do not add overlapping populations or use unavailable values as zero.

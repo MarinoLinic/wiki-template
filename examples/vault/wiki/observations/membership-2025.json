@@ -1,0 +1,14 @@
+{
+  "id": "harbor-membership-2025",
+  "metric": "membership",
+  "label": "All-age membership in 2025",
+  "value": 1200,
+  "unit": "people",
+  "period": "2025",
+  "scope": "Harbor Association",
+  "universe": "all-age membership",
+  "method": "reported",
+  "source": "../sources/fictional-report.md",
+  "locator": "Section B, line 9",
+  "notes": "Fictional demonstration value."
+}

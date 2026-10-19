@@ -1,0 +1,14 @@
+{
+  "id": "bench-failures",
+  "metric": "equipment-failures",
+  "label": "Recorded equipment failures",
+  "value": 0,
+  "unit": "events",
+  "period": "2025-01-01",
+  "scope": "Demonstration bench",
+  "universe": "recorded bench failures",
+  "method": "reported",
+  "source": "../sources/fictional-report.md",
+  "locator": "Section B, line 12",
+  "notes": "A fictional measured zero, distinct from unavailable departures."
+}
