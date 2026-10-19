@@ -1,10 +1,12 @@
 # Maintaining the template
 
-The template is ready to copy into a new project. It contains instructions, five optional profiles, eight blank content templates, a fictional example, and a Python helper. It does not contain a personal subject wiki.
+The template is ready to copy into a new project. It contains instructions, five optional profiles, eight blank content templates, a review-report template, a fictional example, and a Python helper. It does not contain a personal subject wiki.
 
 ## Architecture
 
 AGENTS.md is the shared operating entry point; CLAUDE.md points to it. README.md describes actual usage. FORMAT.md defines the local contract and its relationship to OKF v0.2. WORKFLOWS.md separates capture, ingestion, retrieval, and review.
+
+REVIEW.md describes an on-demand, report-only editorial pass, source-impact tracing, and claim-specific freshness. It does not add an automatic semantic checker, a scheduler, or a multi-agent requirement. Review-report templates and requested drafts go in private out/ directories outside the OKF bundle.
 
 Scripts/wiki.py uses PyYAML's safe loader with duplicate-key rejection. Everything else uses Python's standard library. It never downloads, deletes files, performs AI inference, executes procedures, or evaluates models.
 

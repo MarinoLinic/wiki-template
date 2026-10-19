@@ -35,6 +35,8 @@ Use one writer per scope. Inspect the working tree before changes and preserve u
 
 After meaningful content changes, run check, rebuild indexes, and check again. Review citations and actual source meaning separately. Mechanical validation does not confirm factual accuracy.
 
+Separate capture, editing, and skeptical review into explicit passes. One agent can perform all three. For source-impact review and unresolved contradictions, follow docs/REVIEW.md. A report-only review leaves wiki pages, review stamps, and indexes unchanged.
+
 ## Answer and retrieve
 
 Start from config and a relevant index; do not dump the whole vault into context. Use aliases and keyword search, then read the needed pages and originals.
@@ -47,14 +49,20 @@ Select retrieval by question:
 - Relationships: explicit attributed relations, not link proximity or semantic similarity.
 - Current facts: check the observation's period and source freshness, not merely the page edit date.
 
+When a request depends on a changing fact being true now, recheck its authoritative current source or clearly label it last known. If access fails, report the failure instead of presenting a cached value as current. Historical questions can use the dated snapshot. Set review intervals by the kind of claim and the consequence of staleness.
+
 Cite the source, relevant locator, scope, and unresolved uncertainty. State when evidence is unavailable. Do not treat the nearest search result as proof or a partial search as exhaustive coverage.
 
 Do not save every response. Read save_answers in config.json; the default is on_request. Human-reviewed status requires actual human review of the stated revision. A check pass alone cannot confer it.
+
+Save requested plans, briefs, comparison drafts, and review reports in the private vault's out/ directory, outside the curated bundle. Preserve evidence links and label assumptions. Promote a useful result into wiki/ only through the normal curation workflow.
 
 ## Maintain and hand off
 
 Read docs/DEVELOPMENT.md before modifying tools or their contract. Keep README, format, workflows, profiles, examples, and tests aligned with actual behavior.
 
 Keep reusable operating rules here and detailed contracts in docs. Keep subject-specific state in .local/HANDOFF.md or the selected private vault, with actual changes, checks, and open questions.
+
+After a correction, fix the underlying record or workflow. If it reveals a durable failure mode, update the nearest existing profile, procedure, or operating instruction and show the rule added. Keep personal rules private. Avoid accumulating duplicate rules or treating a one-off correction as a universal instruction.
 
 No deletion, public export, account integration, or deployment is implied by wiki maintenance. Preserve user files; deletion requires authorization and the appropriate Recycle Bin workflow on Windows.

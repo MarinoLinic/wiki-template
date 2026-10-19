@@ -17,7 +17,11 @@ Config.json records title, profiles, schema version, and save_answers: "on_reque
 
 Capture is not ingestion. It preserves bytes and creates a source record; it does not assert that the source has been read or its claims verified.
 
+Treat these as three passes: capture preserves inputs, editing integrates justified claims, and review questions the result. One agent can perform the passes. The [review guide](REVIEW.md) gives a report-only procedure.
+
 To refresh a source, capture its new bytes under the same source key. Retain the older version. Review dependent pages before changing their citations. A historical claim can remain tied to an older source version.
+
+Find the pages citing that source, the observations extracted from it, models using those observations, and syntheses depending on those pages. Update the items actually affected. Do not assume a source must produce a particular number of page changes.
 
 ## Create and edit pages
 
@@ -37,6 +41,18 @@ For totals or maximums, select compatible observations before using a reproducib
 
 For comparisons of theories, preserve whose claims are being compared. For a full-source summary, read the full source or explicitly limit the summary's coverage.
 
+Separate durable context from changing facts. An author's published argument or a historical measurement can remain useful as dated evidence. A current status, deadline, price, availability, or operational measurement may need a fresh source check when used. If that check fails, identify the last-known value and its date.
+
+## Produce a deliverable
+
+Start from the user's requested output, such as a reading plan, research brief, comparison draft, or calculation specification. Read the relevant wiki pages and evidence, identify missing inputs, and check facts whose current state matters.
+
+Save requested work in the vault's out/ directory, creating it when needed. This directory sits beside raw/ and wiki/ and is outside the curated OKF bundle. Label assumptions, preserve source links, and distinguish finished work from work needing review. A due date invented by the plan is a proposal, not a date established by the evidence.
+
+A useful answer can later become a curated synthesis. Keep its evidence lineage and follow save_answers; generating a draft alone does not promote it into canonical knowledge.
+
+Run a proposed procedure manually on a representative task and check its output before saving it as a reusable procedure. Record applicability and known limits. Background schedules and external actions require their own user authorization.
+
 ## Check and review
 
 The checker covers local metadata, YAML/JSON parsing, duplicate keys, file references, source hashes, capture IDs, citation mappings, observation values and required fields, review content hashes, and log date headings.
@@ -46,6 +62,14 @@ It warns about drafts, uncaptured sources, unversioned reviews, stale dates, and
 It does not prove factual correctness, exact quotation fidelity, complete extraction, source quality, causal relationships, population compatibility, or permission to perform a procedure.
 
 For editorial review, inspect those matters directly. A model or substantive change to interpretation needs more than a link check.
+
+Use [the report template](../templates/review-report.md) for a requested saved review. Report-only review does not run index regeneration or change verification metadata. A review date becoming due is a reason to recheck, not proof that a claim is false.
+
+## Learn from corrections
+
+Correct a wrong fact in its canonical record. For a recurring process failure, identify the cause and improve the nearest existing procedure, profile, or operating instruction. Give the rule a clear scope and show the change.
+
+Keep subject decisions, personal preferences, and unresolved tasks private. Record consequential decisions with their rationale and date when useful for continuation. Do not save every conversation automatically, append all corrections to an ever-growing global rules file, or promise that a written rule guarantees future compliance.
 
 ## Recovery and privacy
 

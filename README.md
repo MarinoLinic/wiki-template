@@ -39,6 +39,12 @@ For maintenance:
 
 The AI should preserve human-owned notes and create useful pages rather than a fixed number of notes per source. Answers are saved when requested or when the local configuration explicitly enables that workflow.
 
+The workflow separates capture, editing, and review. A review can identify affected pages, unresolved disagreements, stale claims, and weak navigation without rewriting the wiki. See [the review guide](docs/REVIEW.md).
+
+To turn knowledge into a deliverable:
+
+> Using this wiki, draft [a reading plan, brief, comparison, or other output]. Check any facts that need to be current, link the supporting evidence, and mark assumptions. Save the draft in the vault's out directory.
+
 ## What lives where
 
 | Path | Purpose |
@@ -47,12 +53,14 @@ The AI should preserve human-owned notes and create useful pages rather than a f
 | CLAUDE.md | Entry pointer for agents using that filename |
 | docs/FORMAT.md | Page and record contract |
 | docs/WORKFLOWS.md | Setup, ingestion, answering, review, and recovery |
+| docs/REVIEW.md | Report-only review, source impact, contradictions, and freshness |
 | docs/profiles/ | Optional rules for each kind of knowledge |
 | templates/ | Blank page and observation templates |
 | examples/vault/ | A small, entirely fictional worked example |
 | scripts/wiki.py | Setup, page creation, source capture, checks, indexing, search, and exact record filtering |
 | tests/ | Behavioral checks for the helper and example corpus |
 | .local/vault/ | Your private configuration, originals, pages, and records |
+| .local/vault/out/ | Requested drafts and review reports, outside the curated wiki |
 | .local/history/ | Private backups of edited material, when needed |
 
 The private vault contains config.json, raw/, and wiki/. Only wiki/ is the curated OKF bundle. Raw transcripts, PDFs, and datasets retain their original format.

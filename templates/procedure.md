@@ -23,6 +23,10 @@ Describe the supported procedure with source attribution.
 
 Specify observable results and failure signs.
 
+## Manual validation
+
+Record a representative run, its evidence, the actual result, and what remains untested. Distinguish a proposed procedure from one that has worked. Automate it only after the workflow proves useful and the user authorizes a schedule or external action.
+
 ## Limits
 
 Explain cases where this procedure does not apply.
