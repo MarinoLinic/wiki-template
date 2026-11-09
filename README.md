@@ -2,6 +2,8 @@
 
 A starter for private knowledge bases that a person and an AI can use together. Keep original sources, build linked explanations, and add structured observations when a subject needs exact comparisons or calculations.
 
+![Workflow diagram](docs/workflow.svg)
+
 The same foundation supports theory, numerical research, hobby reference, personal observations, and agent procedures. Open the files in Obsidian or a Markdown editor. An AI with file access can maintain the collection using [AGENTS.md](AGENTS.md).
 
 ## Start a wiki
